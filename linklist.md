@@ -1,9 +1,9 @@
 # Atmosphere
-
+- https://sdgs.un.org/topics/atmosphere
+- 
 # Music
 - https://supercollider.github.io
 	- https://twitter.com/search?q=supercollider+play
-	- 
 - https://puredata.info/
 - monotron
 	- https://schollz.com/raspberrypi/monotron/
@@ -13,6 +13,7 @@
 	- https://github.com/FluidSynth/fluidsynth/wiki/GettingStarted
 - google nsynth https://web-build.info/2018/07/02/google-nsynth-super-a-synthesizer-with-touch-screen-and-raspberry-pi-to-make-music-using-artificial-intelligence/
 - https://www.instructables.com/Collaborative-Music-Making-Makey-Makey-Raspberry-P/
+- isobar (not used anymore) https://github.com/ideoforms/isobar
 # Visuals
 - NeoPixel: https://www.adafruit.com/category/168
 - Pi – Midi --> LED : https://www.reddit.com/r/raspberry_pi/comments/bali6j/seizure_warning_connected_my_midi_keyboard_to/
@@ -27,7 +28,7 @@
 
 # Online Interface
 - https://norns.online/
-- 
+- https://www.creative-tim.com/product/vue-black-dashboard?affiliate_id=116187
 
 # Inspiration
 - Instant Choir 2018 im WERK X-PETERSPLATZ https://www.youtube.com/watch?v=cw0P9a7F3c4&t=7s
