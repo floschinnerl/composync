@@ -1,0 +1,21 @@
+# Atmosphere
+
+# Music
+- https://supercollider.github.io
+	- https://twitter.com/search?q=supercollider+play
+	- 
+- https://puredata.info/
+- 
+# Visuals
+
+# Input
+
+- for tennis ball idea
+	- https://electronics.semaf.at/NodeMCU-ESP32-Development-Board
+	- https://electronics.semaf.at/NodeMCU-v2-ESP8266
+- https://www.arduino.cc/en/Reference/Firmata
+
+
+# Inspiration
+- Instant Choir 2018 im WERK X-PETERSPLATZ https://www.youtube.com/watch?v=cw0P9a7F3c4&t=7s
+- 
