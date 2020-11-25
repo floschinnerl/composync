@@ -15,7 +15,10 @@
 	- https://electronics.semaf.at/NodeMCU-v2-ESP8266
 - https://www.arduino.cc/en/Reference/Firmata
 
+# Online Interface
+- https://norns.online/
+- 
 
 # Inspiration
 - Instant Choir 2018 im WERK X-PETERSPLATZ https://www.youtube.com/watch?v=cw0P9a7F3c4&t=7s
-- 
+
