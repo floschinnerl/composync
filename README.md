@@ -11,4 +11,4 @@
   - run the second block by pressing cmd+enter at the opening or closing bracket 
 4) open the website at http://localhost:8080/
   - move ball around
-  
+  - hear the music changing
