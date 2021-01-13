@@ -1,9 +1,10 @@
 <template>
     <div class="wrapper">
         <br/>
-        <div id="position"></div>
-        <div> x: {{x}}</div>
-        <div> y: {{y}}</div>
+        <div id="position"> 
+          <h3 class="vl">Intensity</h3>
+          <h3 class="hl">Complexity</h3>
+        </div>
     </div>
 </template>
 
@@ -99,6 +100,24 @@ SOFTWARE. */
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.vl {
+  z-index: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 43%;
+  left: 1%;
+  writing-mode: vertical-rl;
+}
+
+.hl {
+   z-index: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  bottom: 8%;
+  left: 47%;
 }
 </style>
 
