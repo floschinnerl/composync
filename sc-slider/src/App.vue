@@ -26,7 +26,7 @@ export default {
     positionChange: function(p) {
       this.x = Math.round(p.x*10);
       this.y = Math.round(p.y*10);
-      this.sendMessage(this.x+"/"+this.y);
+      this.sendMessage(JSON.stringify([this.x, this.y]));
     }
 
     },

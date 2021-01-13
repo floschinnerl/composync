@@ -35,8 +35,10 @@
 udpPort.open();
 
 function sendOSC(message) {
-    var a = message.toString();
-    var m = a.split("/");
+    console.log(message);
+    //if(message != undefined) { 
+    var m = JSON.parse(message);
+    //var m = a.split("/");
     console.log(m);
     var msg = {
         address: "/hello/from/oscjs",
@@ -54,4 +56,5 @@ function sendOSC(message) {
 
     console.log("Sending message", msg.address, msg.args, "to", udpPort.options.remoteAddress + ":" + udpPort.options.remotePort);
     udpPort.send(msg);
+   // }
 }
