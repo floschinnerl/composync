@@ -2,8 +2,10 @@
     <div class="wrapper">
         <br/>
         <div id="position"> 
+          <h4 class="heartrate">&lt;3 60 </h4>
           <h3 class="vl">Intensity</h3>
           <h3 class="hl">Complexity</h3>
+          <button class="mood">mood</button>
         </div>
     </div>
 </template>
@@ -16,7 +18,8 @@ export default {
         return {
       connection: null,
       x: 0,
-      y: 0
+      y: 0,
+      heartrate: 60
     }
     },
     methods: {
@@ -119,5 +122,34 @@ SOFTWARE. */
   bottom: 8%;
   left: 47%;
 }
+
+.heartrate {
+  z-index: 21;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 5%;
+  right: 2%;
+}
+
+.mood {
+  z-index: 21;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 10%;
+  right: 1%;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #2bb;
+  background-color:#fff;
+  border: 0px;
+  border-radius: 10px;
+  width: max-content;
+  transition: 0.25s ease;
+}
+.mood:hover {
+    color: #fff;
+    background-color: #2bb;
+  }
+
 </style>
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="breath-drums_data" version="1.3.0" audacityversion="2.3.3" sel0="0.2757305772" sel1="0.2757305772" vpos="0" h="0.0000000000" zoom="152.3226057626" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="{&quot;drum_version&quot;:2,&quot;dyna_env&quot;:[-1,8192,-1,17152,0,0,0,0],&quot;end&quot;:[428145724,245889144,929363124,491778288,1069280556,737667432,1267393956,1521672672,1106501148,2147483646,1352390292,1712914430,2147483646,1721224008,1844168580,1967113152,245889144,491778290,737667434,983556580,1229445724,1475334870,1721224014,1967113160],&quot;fx_active&quot;:false,&quot;fx_params&quot;:[16704,16704,18000,28496,8000,8000,8000,8000],&quot;fx_type&quot;:&quot;grid&quot;,&quot;lfo_active&quot;:false,&quot;lfo_params&quot;:[7168,-32767,4688,14960,0,0,0,0],&quot;lfo_type&quot;:&quot;element&quot;,&quot;name&quot;:&quot;&quot;,&quot;octave&quot;:0,&quot;pitch&quot;:[388,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],&quot;playmode&quot;:[5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119,5119],&quot;reverse&quot;:[12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000,12000],&quot;start&quot;:[14680064,122944572,404224120,368833716,984976684,614722860,1215818088,1381098916,983556576,1841946140,1229445720,1612371604,1919275728,1598279436,1721224008,1844168580,0,245889144,491778290,737667434,983556580,1229445724,1475334870,1721224014],&quot;type&quot;:&quot;drum&quot;,&quot;volume&quot;:[8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192,8192]}"/>
+	</tags>
+	<wavetrack name="breath-drums" isSelected="1" height="150" minimized="0" channel="2" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="529200">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f5ab.au" len="262144" min="-0.999365" max="1.001591" rms="0.0153"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1fe68.au" len="133528" min="-0.308837" max="0.441251" rms="0.009561"/>
+				</waveblock>
+				<waveblock start="395672">
+					<simpleblockfile filename="eff1f607.au" len="133528" min="-1.001225" max="0.998906" rms="0.027297"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
