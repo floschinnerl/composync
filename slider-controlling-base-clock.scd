@@ -14,7 +14,7 @@
 thisProcess.addOSCRecvFunc(~listener);)
 
 
-//then run this  move cursor before the round bracket in line 18 and press cmd+enter
+//then run this  move cursor before the round bracket in line 20 and press cmd+enter
 (
 s.options.memSize=2048*1024;
 s.options.maxNodes=128*1024;
@@ -86,6 +86,8 @@ i.drums.clock = 1.5;
 (
 i=INSTRUMENT().play;
 c = 1.5;
+x = 0;
+y = 2;
 // i.kick=i.synths.kick[2]; <-- good one!
 
 //i.kick=i.synths.rhodes2; <-- nice lead
@@ -97,19 +99,23 @@ i.hats.amp=0.1;
 //i.kick=i.synths.kick.kick_808;
 i.kick.clock=c;
 i.hats.clock=c;
-d.postln;
 
+d.postln;
 d[0] = ["1        1       ","    1        1   "];
 d[1] = ["1    1    1    1   ","   1   1     1   1 "];
-d[2] = ["1   1 1   1    1 1   ","  1    1    1    1 "];
-d[3] = ["1   1 1  1  1   1 1   ","  1   1  1   1   1 1 "];
 
-d[0];
+d.extend(3, ["1   1 1   1    1 1   ","  1    1    1    1 "]);
+d.extend(4,["1   1 1  1  1   1 1   ","  1   1  1   1   1 1 "]);
+"after extending : ".postln;
+d.do({arg temp, p;
+	temp[0].postln;
+	temp[1].postln;});
 
-/*
-i.kick.seq(d[0].asString);
-i.hats.seq(d[0].asString);
-*/
+d[y][0].asString.postln;
+d[y][1].asString.postln;
+i.kick.seq(d[y][0].asString);
+i.hats.seq(d[y][1].asString);
+
 /*
 i.kick[0].seq("1        1       ");
 i.hats[0].seq("    1        1   ");
@@ -191,7 +197,7 @@ p[4] = [
 s = { arg p; var q = ["","","",""];
 p[4].do(
 	{arg item, i;
-			item.isString.postln;
+			//item.isString.postln;
 			if(item.isString, {[1,2,3,4].do({arg test, b;
 				q[b] = q[b] ++ " ";})} ,
 			{item.do({arg jtem, a;
@@ -215,6 +221,29 @@ i.voices.v3.note("7  14  16  12 ");
 i.voices.v4.note("12  19  21  17 ");
 */
 )
+
+i = INSTRUMENT().play;
+
+p=ProxySpace.push(s);
+
+~sound.play;
+~sound = {|notes=#[60,65,67,72],gain=1| (SinOsc.ar(notes.midicps)*gain).tanh / 6 ! 2 };
+~sound = {|notes=#[60,65,67,72],gain=1| (Saw.ar(notes.midicps/2)*gain).tanh / 10 ! 2 };
+
+
+i.notes=INSTRUMENT(~sound);
+i.notes.seq(\gain,[3,1,13]).speed(1/2);
+
+// you can then seq the cords for i.notes like this:
+
+i.notes.chord([
+	C(0,\m),
+	C(7,\M,1),
+	C(3,\Mmaj7),
+	C(1,\m,0,[16])
+]).speed(1/2);
+
+
 (
 	n = " ";
 	n= [" ", " ", " ", " "];
