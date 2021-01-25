@@ -1,7 +1,6 @@
 # composync
 
-we're currently in a pre-alpha stage, testing/usage on your own risk
-get in contact if you're interested!
+we're currently in a pre-alpha stage, testing/usage on your own risk. get in contact if you're interested!
 
 ### pre-requisits
 you must have node.js and vue.js installed, as well as supercollider
@@ -24,7 +23,7 @@ you must have node.js and vue.js installed, as well as supercollider
 
 
 ### goals for setup
-- setup abstract
+#### setup abstract
 ![composync setup](https://github.com/floschinnerl/composync/blob/main/composync-loop.gif)
-- tech setup
+#### tech setup
 ![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
