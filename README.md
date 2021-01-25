@@ -1,5 +1,11 @@
 # composync
 
+### pre-requisits
+you must have node.js and vue.js installed, as well as supercollider
+- [tutorial for installing node.js] [https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#installing_node] 
+- to install vue.js, type ```$ npm install vue```
+- [download supercollider][https://supercollider.github.io/download]
+
 ### setup
 1) start node server
   - on terminal in sc-slider/scr type ```node api.js```
