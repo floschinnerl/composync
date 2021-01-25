@@ -7,13 +7,13 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
 
 
 ### mission statement
-> Our mission is to foster emotional learning 
-> and exploration through the use of atmospheres, 
-> composed of sound and visuals. 
-> We are doing this using affective computing 
-> as well as user generated input to feed an algorithm 
-> which composes said atmospheres as well as to gather information 
-> on how different atmospheres are emotionally received. 
+> Our mission is to foster emotional learning  
+> and exploration through the use of atmospheres,  
+> composed of sound and visuals.  
+> We are doing this using affective computing  
+> as well as user generated input to feed an algorithm  
+> which composes said atmospheres as well as to gather information  
+> on how different atmospheres are emotionally received.  
 
 
 
