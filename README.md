@@ -1,5 +1,8 @@
 # composync
 
+we're currently in a pre-alpha stage, testing/usage on your own risk
+get in contact if you're interested!
+
 ### pre-requisits
 you must have node.js and vue.js installed, as well as supercollider
 - [tutorial for installing node.js](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#installing_node)
@@ -18,3 +21,10 @@ you must have node.js and vue.js installed, as well as supercollider
 4) open the website at http://localhost:8080/
   - move ball around
   - hear the music changing
+
+
+### goals for setup
+- setup abstract
+![composync setup](https://github.com/floschinnerl/composync/blob/main/composync-loop.gif)
+- tech setup
+![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
