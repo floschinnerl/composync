@@ -1,6 +1,22 @@
 # composync
 
-we're currently in a pre-alpha stage, testing/usage on your own risk. get in contact if you're interested!
+we're a students' project from the department [Cross Disciplinary Strategies](https://cdslab.uni-ak.ac.at/) at the [University of Applied Arts Vienna](https://dieangewandte.at/en)
+
+we're currently in a pre-alpha stage, testing/usage on your own risk. get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:florian.schinnerl@gmail.com) !
+
+
+
+### mission statement
+> Our mission is to foster emotional learning 
+> and exploration through the use of atmospheres, 
+> composed of sound and visuals. 
+> We are doing this using affective computing 
+> as well as user generated input to feed an algorithm 
+> which composes said atmospheres as well as to gather information 
+> on how different atmospheres are emotionally received. 
+
+
+
 
 ### pre-requisits
 you must have node.js and vue.js installed, as well as supercollider
