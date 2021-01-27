@@ -15,6 +15,15 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
 > which composes said atmospheres as well as to gather information  
 > on how different atmospheres are emotionally received.  
 
+### research questions
+1) How can emotions be expressed and influenced through
+ a) Colours?
+ b) Music?
+2) How can physiological body responses be measured and mapped in a multi-dimensional emotional model?
+3) In emotional learning, which role play(s)
+ a) Colours?
+ b) Music?
+ c) Affective computing?
 
 
 
