@@ -17,8 +17,8 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
 
 
 
-[Demonstration of a possible outcome #1](https://drive.google.com/file/d/1qsGrb66ct0ONlUSFjWOeFnfcEFqe4Znt/view?usp=sharing)
-[Demonstration of a possible outcome #2](https://drive.google.com/file/d/1rXKl0z76dJZ1PkthcH-ekKCIah-3jmfS/view?usp=sharing)
+- [Demonstration of a possible outcome #1](https://drive.google.com/file/d/1qsGrb66ct0ONlUSFjWOeFnfcEFqe4Znt/view?usp=sharing)
+- [Demonstration of a possible outcome #2](https://drive.google.com/file/d/1rXKl0z76dJZ1PkthcH-ekKCIah-3jmfS/view?usp=sharing)
 
 
 
