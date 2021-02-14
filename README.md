@@ -3,7 +3,7 @@
 we're a students' project from the department [Cross Disciplinary Strategies](https://cdslab.uni-ak.ac.at/) at the [University of Applied Arts Vienna](https://dieangewandte.at/en)
 
 we're currently looking for coding support! If you're into affective computing, music and visualisation and would like to contribute, we'd be happy to hear from you! Skills in Python, Raspberry Pi, OpenCV, node.js, vue.js (full stack web interface), SuperCollider or similar tools used for reading sensors, making music and visuals would be great.
-We can offer no money but the experience to work in an interdisciplinary project, combining scientific research, artistic expression and applied software development! For this kind of collaboration, we believe in flat hierarchies and continuous exchange between all project members. This means that we are open for contributions to the concept both in scientific and artistic ways from all members of the team.
+We can offer no money at the moment (if the project goes well we will apply for funding) but the experience to work in an interdisciplinary project, combining scientific research, artistic expression and applied software development! For this kind of collaboration, we believe in flat hierarchies and continuous exchange between all project members. This means that we are open for contributions to the concept both in scientific and artistic ways from all members of the team.
 
 get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:florian.schinnerl@gmail.com) !
 
