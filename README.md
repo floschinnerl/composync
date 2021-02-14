@@ -15,6 +15,14 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
 > which composes said atmospheres as well as to gather information  
 > on how different atmospheres are emotionally received.  
 
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1qsGrb66ct0ONlUSFjWOeFnfcEFqe4Znt/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+
+
 ### research questions
 1) How can emotions be expressed and influenced through
  a) Colours?
@@ -25,8 +33,14 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
  b) Music?
  c) Affective computing?
 
+### goals for setup
+#### setup abstract
+![composync setup](https://github.com/floschinnerl/composync/blob/main/composync-loop.gif)
+#### tech setup
+![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
+ 
 
-
+## getting started
 ### pre-requisits
 you must have node.js and vue.js installed, as well as supercollider
 - [tutorial for installing node.js](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#installing_node)
@@ -46,9 +60,3 @@ you must have node.js and vue.js installed, as well as supercollider
   - move ball around
   - hear the music changing
 
-
-### goals for setup
-#### setup abstract
-![composync setup](https://github.com/floschinnerl/composync/blob/main/composync-loop.gif)
-#### tech setup
-![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
