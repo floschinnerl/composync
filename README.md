@@ -15,11 +15,10 @@ we're currently in a pre-alpha stage, testing/usage on your own risk. get in con
 > which composes said atmospheres as well as to gather information  
 > on how different atmospheres are emotionally received.  
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1qsGrb66ct0ONlUSFjWOeFnfcEFqe4Znt/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+
+
+[Demonstration of a possible outcome #1](https://drive.google.com/file/d/1qsGrb66ct0ONlUSFjWOeFnfcEFqe4Znt/view?usp=sharing)
+[Demonstration of a possible outcome #2](https://drive.google.com/file/d/1rXKl0z76dJZ1PkthcH-ekKCIah-3jmfS/view?usp=sharing)
 
 
 
