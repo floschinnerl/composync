@@ -2,8 +2,7 @@
 
 we're a students' project from the department [Cross Disciplinary Strategies](https://cdslab.uni-ak.ac.at/) at the [University of Applied Arts Vienna](https://dieangewandte.at/en)
 
-**we're currently looking for coding support!** If you're into affective computing, music and visualisation and would like to contribute, we'd be happy to hear from you! Skills in Python, Raspberry Pi, OpenCV, node.js, vue.js (full stack web interface), SuperCollider or similar tools used for reading sensors, making music and visuals would be great.
-We can offer no money at the moment (if the project goes well we will apply for funding) but the experience to work in an interdisciplinary project, combining scientific research, artistic expression and applied software development! For this kind of collaboration, we believe in flat hierarchies and continuous exchange between all project members. This means that we are open for contributions to the concept both in scientific and artistic ways from all members of the team.
+**we're currently looking for coding support!** more infos below
 
 get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:florian.schinnerl@gmail.com) !
 
@@ -11,12 +10,11 @@ get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:flo
 
 ### mission statement
 > Our mission is to foster emotional learning  
-> and exploration through the use of atmospheres,  
-> composed of sound and visuals.  
+> and exploration through the use of sound and visuals.
 > We are doing this using affective computing  
-> as well as user generated input to feed an algorithm  
-> which composes said atmospheres as well as to gather information  
-> on how different atmospheres are emotionally received.  
+> as well as user input to compose
+> sound and visuals, as well as to gather information  
+> on how different music and visuals are emotionally received.  
 
 
 
@@ -27,9 +25,10 @@ get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:flo
 
 ### research questions
 1) How can emotions be expressed and influenced through
- a) Colours?
+ a) Visuals and Colours?
  b) Music?
 2) How can physiological body responses be measured and mapped in a multi-dimensional emotional model?
+a) Are Intensity, Complexity and Valence proper parameter for this model?
 3) In emotional learning, which role play(s)
  a) Colours?
  b) Music?
@@ -41,6 +40,11 @@ get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:flo
 #### tech setup
 ![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
  
+
+### we're looking for support!
+If you're into affective computing, music and visualisation and would like to contribute, we'd be happy to hear from you! Skills in Python, Raspberry Pi, OpenCV, node.js, vue.js (full stack web interface), SuperCollider or similar tools used for reading sensors, making music and visuals would be great.
+We can offer no money at the moment but the experience to work in an interdisciplinary project, combining scientific research, artistic expression and applied software development! If the project goes well we will apply for funding, so contact us if you know an open call where we would fit! For this kind of collaboration, we believe in flat hierarchies and continuous exchange between all project members. This means that we are open for contributions to the concept both in scientific and artistic ways from all members of the team.
+
 
 ## getting started
 ### pre-requisits
