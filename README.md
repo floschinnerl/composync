@@ -10,10 +10,10 @@ get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:flo
 
 ### mission statement
 > Our mission is to foster emotional learning  
-> and exploration through the use of sound and visuals.
+> and exploration through the use of music and visuals.  
 > We are doing this using affective computing  
-> as well as user input to compose
-> sound and visuals, as well as to gather information  
+> as well as user input to compose music and visuals,  
+> as well as to gather information  
 > on how different music and visuals are emotionally received.  
 
 
