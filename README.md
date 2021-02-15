@@ -35,7 +35,7 @@ a) Are Intensity, Complexity and Valence proper parameter for this model?
  c) Affective computing?
 
 ### goals for setup
-#### setup abstract (we used the term "atmosphere" to describe the combination of sound and visuals)
+#### setup abstract (we used the term "atmosphere" to describe the combination of sound and visuals liked to emotions)
 ![composync setup](https://github.com/floschinnerl/composync/blob/main/composync-loop.gif)
 #### tech setup
 ![composync tech setup](https://github.com/floschinnerl/composync/blob/main/tech-illustration.gif)
