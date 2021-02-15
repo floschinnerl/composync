@@ -27,7 +27,7 @@ get in contact if you're interested --> [florian.schinnerl@gmail.com](mailto:flo
 1) How can emotions be expressed and influenced through
  a) Visuals and Colours?
  b) Music?
-2) How can physiological body responses be measured and mapped in a multi-dimensional emotional model?
+2) How can physiological body responses be measured and mapped in a multi-dimensional emotional model?  
 a) Are Intensity, Complexity and Valence proper parameter for this model?
 3) In emotional learning, which role play(s)
  a) Colours?
