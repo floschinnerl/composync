@@ -31,10 +31,10 @@ While Composync can be very broadly applied, the first aim is to use it for *emo
  b) Music?
 2) How can physiological body responses be measured and mapped in a multi-dimensional emotional model?  
 a) Are Intensity, Complexity and Valence proper parameter for this model?
-3) In emotional learning, which role play(s)
- a) Colours?
- b) Music?
- c) Affective computing?
+3) In emotional learning, which role play(s)  
+ a) Colours?  
+ b) Music?  
+ c) Affective computing?  
 
 ### goals for setup
 #### setup abstract (we used the term "atmosphere" to describe the combination of sound and visuals linked to emotions)
