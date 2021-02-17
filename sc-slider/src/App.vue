@@ -48,11 +48,11 @@ export default {
       'maxY': 1,
       'stepY': 0
     })
-    this.dial.on('change',this.positionChange)  // doesn't work like this...
+    this.dial.on('change',this.positionChange) 
     },
     created: function() {
     console.log("Starting connection to WebSocket Server")
-    //this.connection = new WebSocket("ws://localhost:9898/")
+    //this.connection = new WebSocket("ws://localhost:9898/") //for localhost only
     console.log("ip: "+ window.location.hostname)
     this.connection = new WebSocket("ws://"+window.location.hostname+":9898/") // <-- for beyond-localhost
 

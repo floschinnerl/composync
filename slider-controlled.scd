@@ -12,30 +12,30 @@
 		("x:"+x).postln;
 		y=(msg[1]);
 		("y: "+y).postln;
-		"new debug listener06".postln;
+		//"new debug listener06".postln;
 
 		c=(msg[2]/6 +1);
 		("c: "+c).postln;
 
 		i.voices.clock=c*2;
-		"voice clock set".postln;
+		//"voice clock set".postln;
 		i.hats.clock=c*2;
-		"hats clock set".postln;
+		//"hats clock set".postln;
 		i.kick.clock=c*2;
-		"kick clock set".postln;
-		z = s.value(p);
+		//"kick clock set".postln;
+		z = f.value(p);
 
 		z[0].postln;
 		z[1].postln;
 		z[2].postln;
 		z[3].postln;
 		i.voices.clear;
-		("voices cleared").postln;
+		//("voices cleared").postln;
 		i.voices.v1.note(z[0]);
 		i.voices.v2.note(z[1]);
 		i.voices.v3.note(z[2]);
 		i.voices.v4.note(z[3]);
-		("voices added").postln;
+		//("voices added").postln;
 		if(x>3, {i.voices.clock=c*4;"voices double time".postln;},{i.voices.clock=c*2;"voices half time".postln;});
 		if(((y>4)||((c>2)&&(y<2))), {i.hats.clock=c*4;i.kick.clock=c*4;"drums double time".postln;},{i.hats.clock=c*2;i.kick.clock=c*2;"drums double time".postln;});
 		("d[y]: "+d[y]).postln;
@@ -168,7 +168,7 @@ p = p.add([
 
 ("p.size: " + p.size).postln;
 ("x: "+ x).postln;
-s = { arg p; var q = ["","","",""];
+f = { arg p; var q = ["","","",""];
 	p[x].size.postln;
 p[x].do(
 	{arg item, i;
@@ -181,7 +181,7 @@ p[x].do(
 			})});
 			//item.postln;
 }); q};
-z = s.value(p);
+z = f.value(p);
 
 z[0].postln;
 z[1].postln;
@@ -228,4 +228,26 @@ i.bass.clock=6;)
 i.bass.stop;
 i.kick.stop;
 i.hihat.stop;
+)
+(
+i = INSTRUMENT().play;
+
+p=ProxySpace.push(s);
+
+~sound.play;
+~sound = {|notes=#[60,65,67,72],gain=1| (SinOsc.ar(notes.midicps)*gain).tanh / 6 ! 2 };
+~sound = {|notes=#[60,65,67,72],gain=1| (Saw.ar(notes.midicps/2)*gain).tanh / 10 ! 2 };
+
+
+i.notes=INSTRUMENT(~sound);
+i.notes.seq(\gain,[3,1,13]).speed(1/2);
+
+// you can then seq the cords for i.notes like this:
+
+i.notes.chord([
+	C(0,\m),
+	C(7,\M,1),
+	C(3,\Mmaj7),
+	C(1,\m,0,[16])
+]).speed(1/2);
 )
